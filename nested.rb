@@ -89,8 +89,8 @@ def adding_matz
         }
      }
 
-programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
-programmer_hash[:yukihiro_matsumoto][:languages] = "LISP", "C"
+return programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
+return programmer_hash[:yukihiro_matsumoto][:languages] = "LISP", "C"
 
 end
 
@@ -132,5 +132,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+
+return programmer_hash[:dennis_ritchie][:languages] <<"Assembly"
 
 end
