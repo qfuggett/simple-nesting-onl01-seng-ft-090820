@@ -93,8 +93,6 @@ matz_knownfor = "Ruby"
 matz_languages = "Lisp", "C"
 
 programmer_hash[:yukihiro_matsumoto] = { }
-#programmer_hash[:yukihiro_matsumoto] = :known_for
-#programmer_hash[:yukihiro_matsumoto] = :languages
 programmer_hash[:yukihiro_matsumoto][:known_for] = matz_knownfor
 programmer_hash[:yukihiro_matsumoto][:languages] = matz_languages
 
