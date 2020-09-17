@@ -61,7 +61,7 @@ def dennis_ritchies_language
      }
 
 dennis_language = programmer_hash[:dennis_ritchie][:languages]
-return dennis_language
+return dennis_language[0]
 
 end
 
