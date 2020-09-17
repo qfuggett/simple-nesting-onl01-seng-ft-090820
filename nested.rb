@@ -91,7 +91,7 @@ def adding_matz
      }
 
 programmer_hash = {:yukihiro_matsumoto => :known_for}
-programmer_hash[:yukihiro_matsumoto] << :known_for
+#programmer_hash[:yukihiro_matsumoto] << :known_for
 #programmer_hash[:yukihiro_matsumoto][:languages] << "LISP" "C"
 return programmer_hash
 end
